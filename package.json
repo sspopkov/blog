@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.0",
+    "lerna": "^8.1.8",
+    "prettier": "^3.3.3"
+  },
+  "scripts": {
+    "format": "prettier --write \"packages/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "lint": "eslint \"packages/**/*.{ts,tsx}\""
+  }
+}
