@@ -23,7 +23,6 @@ jspm_packages/
 
 # Environment variables
 .env
-.env.*
 
 # Editor directories and files
 .vscode/
@@ -35,10 +34,6 @@ jspm_packages/
 .DS_Store
 Thumbs.db
 
-# Lock files
-package-lock.json
-yarn.lock
-
 # Coverage reports
 coverage/
 
@@ -49,11 +44,6 @@ coverage/
 # Miscellaneous
 *.swp
 *~
-
-# React specific
-**/public/*.html
-**/public/favicon.ico
-**/src/react-app-env.d.ts
 
 # Ignore all local .gitignore files in subdirectories
 !.gitignore

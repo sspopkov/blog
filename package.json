@@ -13,6 +13,13 @@
     "prettier": "^3.3.3"
   },
   "scripts": {
+    "build:shared": "lerna run build --scope shared-components",
+    "build:apps": "lerna run build --scope admin-app --scope author-app --scope reader-app",
+    "build:all": "yarn build:shared && yarn build:apps",
+    "start:admin": "yarn workspace admin-app start",
+    "start:author": "yarn workspace author-app start",
+    "start:reader": "yarn workspace reader-app start",
+    "start:all": "yarn build:shared && lerna run start --parallel",
     "format": "prettier --write \"packages/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
     "lint": "eslint \"packages/**/*.{ts,tsx}\""
   }
