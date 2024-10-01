@@ -24,7 +24,6 @@ const Reviews: React.FC = () => {
           </Typography>
         </CardContent>
       </ReviewCard>
-      {/* More reviews can be added here */}
     </ReviewsContainer>
   );
 };

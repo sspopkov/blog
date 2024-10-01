@@ -16,7 +16,6 @@ const Dashboard: React.FC = () => {
     <Main>
       <Heading>Welcome to the Admin Dashboard</Heading>
       <p>This is where you can manage your blog platform.</p>
-      {/* Here you can add more components or features */}
       <Button onClick={() => alert('Admin action')}>Action</Button>
     </Main>
   );

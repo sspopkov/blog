@@ -21,6 +21,9 @@ module.exports = {
     react: {
       version: 'detect',
     },
+    'import/resolver': {
+      alias: [['@components', './src/components']],
+    },
   },
   rules: {
     // ваши правила

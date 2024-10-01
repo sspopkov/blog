@@ -23,7 +23,6 @@ const Posts: React.FC = () => {
           </Typography>
         </CardContent>
       </PostCard>
-      {/* You can add more posts here */}
     </PostsContainer>
   );
 };

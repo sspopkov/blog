@@ -15,7 +15,7 @@
 1. Убедитесь, что у вас установлены Node.js и Yarn.
 2. Клонируйте репозиторий:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sspopkov/blog
    cd blog
    ```
 3. Установите зависимости:
